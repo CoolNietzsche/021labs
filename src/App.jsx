@@ -68,7 +68,8 @@ function App() {
       </nav>
 
       {/* Hero Section - Improved Mobile Spacing */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16 md:pt-0">
+      {/*       <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16 md:pt-0"> */}
+       <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-32">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: 'url(/src/assets/tech_background_new.jpg)' }}
